@@ -1,0 +1,26 @@
+<!--components/xing/x-scroll-view/x-scroll-view.wxml-->
+<scroll-view class="scroll-view {{pullDownStatus === 3 ? 'refresh' : ''}} {{pullDownStatus === 4 ? 'finish' : ''}}" scroll-y scroll-with-animation enable-back-to-top bindscroll="_onScroll" bindtouchend="_onTouchEnd" bindscrolltolower="_onLoadmore">
+  <view class="pulldown">
+    <block wx:if="{{pullDownStatus === 0 || pullDownStatus === 1}}">
+      <text class="iconfont icon-pull-down" space="nbsp"></text><text> {{pullText}}</text>
+    </block>
+    <block wx:if="{{pullDownStatus === 2}}">
+      <text class="iconfont icon-release-up" space="nbsp"></text><text> {{releaseText}}</text>
+    </block>
+    <block wx:if="{{pullDownStatus === 3}}">
+      <text class="iconfont icon-loading loading" space="nbsp"></text><text> {{loadingText}}...</text>
+    </block>
+    <block wx:if="{{pullDownStatus === 4}}">
+      <text class="iconfont icon-complete" space="nbsp"></text><text> {{finishText}}</text>
+    </block>
+  </view>
+  <slot></slot>
+  <view class="loadmore">
+    <block wx:if="{{nomore}}">
+      <text>{{nomoreText}}</text>
+    </block>
+    <block wx:else>
+      <text class="iconfont icon-loading loading" space="nbsp"></text><text> {{loadmoreText}}</text>
+    </block>
+  </view>
+</scroll-view>

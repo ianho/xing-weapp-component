@@ -1,0 +1,7 @@
+<!--pages/home.wxml-->
+<view class="header">header</view>
+<x-scroll-view refreshing="{{refreshing}}" nomore="{{nomore}}" bindpulldownrefresh="_onPullDownRefresh" bindloadmore="_onLoadmore" bindscroll="_onScroll">
+  <block wx:for="{{colors}}" wx:for-index="index" wx:key="index">
+    <view class="view" style="background: {{item}}">{{index + 1}}. {{item}}</view>
+  </block>
+</x-scroll-view>
