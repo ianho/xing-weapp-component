@@ -1,11 +1,13 @@
 {
   "pages": [
-    "pages/home"
+    "pages/home",
+    "pages/demo/x-scroll-view",
+    "pages/demo/x-image"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "xing-weapp-component",
     "navigationBarTextStyle": "black"
   }
 }

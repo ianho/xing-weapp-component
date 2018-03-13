@@ -1,0 +1,11 @@
+<!--xing-components/x-image.wxml-->
+<block wx:if="{{placeholderType === 'default'}}">
+  <image class="x-image default" src="{{src}}" mode="{{mode}}" lazy-load="{{lazyLoad}}" binderror="_onerror"></image>
+</block>
+<block wx:if="{{placeholderType === 'url'}}">
+  <image class="x-image" style="background-image: url('{{placeholderImage}}')" src="{{src}}" mode="{{mode}}" lazy-load="{{lazyLoad}}" binderror="_onerror"></image>
+</block>
+<block wx:if="{{placeholderType === 'local'}}">
+  <image class="x-image" src="{{placeholderImage}}"></image>
+  <image class="x-image" src="{{src}}" mode="{{mode}}" lazy-load="{{lazyLoad}}" binderror="_onerror"></image>
+</block>

@@ -1,7 +1,21 @@
 <!--pages/home.wxml-->
-<view class="header">header</view>
-<x-scroll-view refreshing="{{refreshing}}" nomore="{{nomore}}" bindpulldownrefresh="_onPullDownRefresh" bindloadmore="_onLoadmore" bindscroll="_onScroll">
-  <block wx:for="{{colors}}" wx:for-index="index" wx:key="index">
-    <view class="view" style="background: {{item}}">{{index + 1}}. {{item}}</view>
-  </block>
-</x-scroll-view>
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">xing-weapp-component</view>
+    <view class="page__desc">xing-weapp-component 是对小程序基础组件的一个扩展，不定期更新，具体内容可查看github</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="kind-list">
+      <view class="kind-list__item">
+        <navigator id="x-scroll-view" class="weui-flex kind-list__item-hd" url="./demo/x-scroll-view">
+          <view class="weui-flex__item">x-scroll-view</view>
+        </navigator>
+      </view>
+      <view class="kind-list__item">
+        <navigator id="x-image" class="weui-flex kind-list__item-hd" url="./demo/x-image">
+          <view class="weui-flex__item">x-image</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

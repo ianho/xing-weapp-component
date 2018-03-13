@@ -1,0 +1,7 @@
+/* pages/demo/x-image.wxss */
+.x-image {
+  width: 700rpx;
+  height: 525rpx;
+  border-radius: 10rpx;
+  margin: 20rpx auto;
+}
