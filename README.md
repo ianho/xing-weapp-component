@@ -1,13 +1,13 @@
 # xing-weapp-component
 
-> 小程序基础组件扩展
+> xing-weapp-component是小程序基础组件的扩展，不定期更新
 
 ## xing组件简介
 
 |组件名|目录|扩展组件|扩展内容|
 |---|---|---|---|
 |xing-scroll-view|/xing-components/x-scroll-view|[scroll-view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/scroll-view.html)|增加scroll-view自身的下拉刷新功能等|
-|xing-image|/xing-components/x-image|[image](https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html)|增加图片的placeholder占位图/broken破图|
+|xing-image|/xing-components/x-image|[image](https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html)|增加图片的占位图、破图等|
 
 ## 使用方法
 
