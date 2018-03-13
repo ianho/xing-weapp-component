@@ -40,7 +40,6 @@ Component({
     nomore: {
       type: Boolean,
       value: false,
-      observer: '_onNomore',
     },
   },
 

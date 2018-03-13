@@ -79,4 +79,3 @@
 .icon-pull-down:before { content: "\e996"; }
 
 .icon-loading:before { content: "\e9ac"; }
-
