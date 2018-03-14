@@ -6,12 +6,12 @@
 
 |组件名|目录|扩展组件|扩展内容|
 |---|---|---|---|
-|xing-scroll-view|/xing-components/x-scroll-view|<a href="https://mp.weixin.qq.com/debug/wxadoc/dev/component/scroll-view.html" target="_blank">scroll-view</a>|增加scroll-view自身的下拉刷新功能等|
-|xing-image|/xing-components/x-image|<a href="https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html" target="_blank">image</a>|增加图片的占位图、破图等|
+|xing-scroll-view|/xing-components/x-scroll-view|[scroll-view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/scroll-view.html)|增加scroll-view自身的下拉刷新功能等|
+|xing-image|/xing-components/x-image|[image](https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html)|增加图片的占位图、破图等|
 
 ## 使用方法
 
-1. 下载代码，若已经安装微信开发者工具（1.02.1803130及以上版本）可<a href="wechatide://minicode/6bc7f2bfe8f17d05bc18600b53168ab9" target="_blank">点击导入代码片段</a>
+1. 下载代码，若已经安装微信开发者工具（1.02.1803130及以上版本）可[点击导入代码片段](http://lc-umun50np.cn-n1.lcfile.com/960c439ed20eef2ae6a8.html)
 
 1. 复制文件夹 `xing-components` 到你自己的项目中
 
@@ -33,7 +33,7 @@
     </view>
     ```
 
-    > 参考：<a href="https://mp.weixin.qq.com/debug/wxadoc/dev/framework/custom-component/" target="_blank">自定义组件官方文档</a>
+    > 参考：[自定义组件官方文档](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/custom-component/)
 
 ## 组件文档
 
@@ -52,7 +52,7 @@
 |nomore|Boolean|false|是否没有更多数据（加载完毕）|
 |bindpulldownrefresh|HandleEvent||当下拉刷新时触发|
 |bindloadmore|HandleEvent||当滚动到底部时触发|
-|bindscroll|HandleEvent||同<a href="https://mp.weixin.qq.com/debug/wxadoc/dev/component/scroll-view.html" target="_blank">scroll-view</a>|
+|bindscroll|HandleEvent||同[scroll-view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/scroll-view.html)|
 
 **注意：**
 
@@ -124,9 +124,9 @@ Page({
 
 |属性名|类型|默认值|说明|
 |---|---|---|---|
-|src|String||同<a href="https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html" target="_blank">image</a>|
-|mode|String|scaleToFill|同<a href="https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html" target="_blank">image</a>|
-|lazy-load|Boolean|false|同<a href="https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html" target="_blank">image</a>|
+|src|String||同[image](https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html)|
+|mode|String|scaleToFill|同[image](https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html)|
+|lazy-load|Boolean|false|同[image](https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html)|
 |placeholder-image|String|data: image / png; base64, iVBOR...|占位图，支持url、base64、本地目录|
 |broken-image|String||图片加载失败时显示图片，支持url、base64、本地目录，若未设置则不显示|
 
