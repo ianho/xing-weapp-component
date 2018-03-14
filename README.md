@@ -11,27 +11,29 @@
 
 ## 使用方法
 
-- 复制文件夹 `xing-components` 到项目中
+1. 下载代码，若已经安装微信开发者工具（1.02.1803130及以上版本）可[点击导入代码片段](wechatide://minicode/6bc7f2bfe8f17d05bc18600b53168ab9)
 
-- 在需要使用相关组件的页面的 `json` 文件中进行引用声明。此时需要提供每个自定义组件的标签名和对应的自定义组件文件路径：
+1. 复制文件夹 `xing-components` 到你自己的项目中
 
-```json
-{
-  "usingComponents": {
-    "x-tag-name": "path/to/xing-components/x-tag-name"
+1. 在需要使用相关组件的页面的 `json` 文件中进行引用声明。此时需要提供每个自定义组件的标签名和对应的自定义组件文件路径：
+
+  ```javascript
+  {
+    "usingComponents": {
+      "x-tag-name": "path/to/xing-components/x-tag-name"
+    }
   }
-}
-```
+  ```
 
-- 在页面的 `wxml` 中就可以像使用基础组件一样使用自定义组件。节点名即自定义组件的标签名，节点属性即传递给组件的属性值。
+1. 在页面的 `wxml` 中就可以像使用基础组件一样使用自定义组件。节点名即自定义组件的标签名，节点属性即传递给组件的属性值。
 
-```xml
-<view>
-  <x-tag-name attr-name="attr-value"></x-tag-name>
-</view>
-```
+  ```xml
+  <view>
+    <x-tag-name attr-name="attr-value"></x-tag-name>
+  </view>
+  ```
 
-- [自定义组件官方文档](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/custom-component/)
+  > 参考：[自定义组件官方文档](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/custom-component/)
 
 ## 组件文档
 
