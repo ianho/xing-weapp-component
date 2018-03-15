@@ -9,6 +9,10 @@
 |xing-scroll-view|/xing-components/x-scroll-view|[scroll-view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/scroll-view.html)|增加scroll-view自身的下拉刷新功能等|
 |xing-image|/xing-components/x-image|[image](https://mp.weixin.qq.com/debug/wxadoc/dev/component/image.html)|增加图片的占位图、破图等|
 
+- xing-scroll-view下拉刷新效果：
+
+![](http://lc-umun50np.cn-n1.lcfile.com/6515e054ab5cc9a533fa.gif)
+
 ## 使用方法
 
 1. 下载代码，若已经安装微信开发者工具（1.02.1803130及以上版本）可[点击导入代码片段](http://lc-umun50np.cn-n1.lcfile.com/a402f35e1b50bd8567c6.html)
