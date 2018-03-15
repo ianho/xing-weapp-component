@@ -1,0 +1,11 @@
+<p>back in 3s</p>
+<script>
+  window.location.href = 'wechatide://minicode/6bc7f2bfe8f17d05bc18600b53168ab9';
+  var time = 3;
+  setInterval(function () {
+    time--;
+    // if (time === 0) history.back();
+    if (time === 0) window.close();
+    document.querySelector('p').innerText = `back in ${time}s`;
+  }, 1000);
+</script>
