@@ -81,7 +81,6 @@ Component({
       if (status === 2) {
         this.setData({
           pullDownStatus: 3,
-          lastScrollEnd: 0,
         })
         this.properties.refreshing = true,
         this.triggerEvent('pulldownrefresh');
@@ -96,6 +95,7 @@ Component({
         })
         this.setData({
           pullDownStatus: 4,
+          lastScrollEnd: 0,
         })
         setTimeout(() => {
           this.setData({
