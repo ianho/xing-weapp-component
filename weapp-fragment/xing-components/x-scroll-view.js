@@ -82,8 +82,10 @@ Component({
         this.setData({
           pullDownStatus: 3,
         })
-        this.properties.refreshing = true,
-        this.triggerEvent('pulldownrefresh');
+        this.properties.refreshing = true;
+        setTimeout(() => {
+          this.triggerEvent('pulldownrefresh');
+        }, 500);
       }
     },
 
