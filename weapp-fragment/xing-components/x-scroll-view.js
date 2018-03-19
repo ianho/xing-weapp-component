@@ -58,7 +58,7 @@ Component({
     _onScroll: function (e) {
       this.triggerEvent('scroll', e.detail);
       const status = this.data.pullDownStatus;
-      if (status === 3) return;
+      if (status === 3 || status == 4) return;
       const height = this.properties.pullDownHeight;
       const scrollTop = e.detail.scrollTop;
       let targetStatus;
