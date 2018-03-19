@@ -37,7 +37,6 @@ Component({
    */
   methods: {
     _onerror: function (e) {
-      console.log(e);
       if (this.properties.brokenImage) {
         this.setData({
           src: this.properties.brokenImage,
