@@ -2,6 +2,7 @@
 :host {
   position: relative;
   overflow: hidden;
+  display: block;
 }
 
 .scroll-view {
