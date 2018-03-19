@@ -136,7 +136,8 @@ Page({
 
 **注意：**
 
-`xing-image` 是 `block` 块级元素
+1. `xing-image` 是 `block` 块级元素
+1. 在 `scroll-view` 下使用 `xing-image` 无法使用 `lazy-load` ，应该是小程序对 `scroll-view` 下的自定义组件内的 `image` 的 `lazy-load` 存在bug，会导致图片不加载
 
 **示例**
 
