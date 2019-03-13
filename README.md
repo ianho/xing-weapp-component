@@ -4,7 +4,7 @@
 
 ## 插入一条广告（from myself）
 
-> 字节跳动 - EE内推专场，广州、深圳、上海，欢迎扫码狂砸简历
+> 字节跳动 - EE内推专场，广州、深圳、上海，欢迎狂砸简历
 
 [点击进入](https://ee.bytedance.net/hr/?token=WhRHwXnpGstKDVSZk7XIyg==)
 
