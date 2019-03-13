@@ -6,7 +6,7 @@
 
 > 字节跳动 - EE内推专场；广州、深圳、上海；欢迎扫码狂砸简历
 
-![](http://sf6-ttcdn-tos.pstatp.com/obj/developer-baas/baas/tt38956bv3v5xslr15/11ba675895161801_1552454453803.png)
+![](http://sf6-ttcdn-tos.pstatp.com/obj/developer-baas/baas/tt38956bv3v5xslr15/2cabf7f7e9add7ea_1552469552786.png)
 
 ## xing组件简介
 
