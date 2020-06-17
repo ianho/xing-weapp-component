@@ -4,16 +4,6 @@
 
 > xing-weapp-component是小程序基础组件的扩展，不定期更新
 
-## 插入一条广告（from myself）
-
-> 字节跳动 - EE内推专场，广州、深圳、上海，欢迎狂砸简历
-
-[点击进入](https://ee.bytedance.net/hr/?token=WhRHwXnpGstKDVSZk7XIyg==)
-
-> or 扫码 ⤵️
-
-![](http://sf6-ttcdn-tos.pstatp.com/obj/developer-baas/baas/tt38956bv3v5xslr15/2cabf7f7e9add7ea_1552469552786.png)
-
 ## xing组件简介
 
 |组件名|目录|扩展组件|扩展内容|
