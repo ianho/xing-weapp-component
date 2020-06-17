@@ -1,3 +1,5 @@
+⚠️ 太久没空更新，不确定是否可用
+
 # xing-weapp-component
 
 > xing-weapp-component是小程序基础组件的扩展，不定期更新
